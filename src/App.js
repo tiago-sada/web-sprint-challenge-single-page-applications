@@ -7,8 +7,8 @@ import PizzaOrder from "./Components/PizzaOrder";
 const App = () => {
   return (
     <Router>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
+      {/* <h1>Lambda Eats</h1>
+      <p>You can remove this code and create your own header</p> */}
       <Switch>
         <Route path="/pizza" component={PizzaOrder}/>
         <Route path="/" component={Landing}/>

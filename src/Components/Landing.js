@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, useParams, Link, useRouteMatch, useHist
 const Landing = () => {
     return (
         <div>
+            <h1>Lambda Eats</h1>
+            <p>What do you want to do?</p>
             <Link to="/pizza">Order a Pizza</Link>
         </div>
         
