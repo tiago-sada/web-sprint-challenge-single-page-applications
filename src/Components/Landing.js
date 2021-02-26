@@ -3,11 +3,14 @@ import { useState, useEffect } from "react-dom";
 import { BrowserRouter as Router, Route, useParams, Link, useRouteMatch, useHistory, Switch } from 'react-router-dom';
 
 
-function Landing() {
+const Landing = () => {
     return (
-        <p>This is the landing</p>
+        <div>
+            <Link to="/pizza">Order a Pizza</Link>
+        </div>
+        
     )
 }
 
 
-export Landing
+export default Landing;
