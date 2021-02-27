@@ -50,8 +50,8 @@ const PizzaOrder = () => {
     })
 
     useEffect(() => {
-        schema.isValid().then(isSchemaValid => console.log(isSchemaValid))
-        schema.isValid().then(validSchema => setSubmitDisabled(!validSchema))
+        schema.isValid(formData).then(isSchemaValid => console.log(isSchemaValid))
+        schema.isValid(formData).then(validSchema => setSubmitDisabled(!validSchema))
     }, [formData])
 
 
